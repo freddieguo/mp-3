@@ -70,10 +70,10 @@ const StyledButton = styled.button`
     }
 `;
 
-const Result = styled.h2`
+const Result = styled.h2<{ isNegative: boolean }>`
     display: flex;
     justify-content: center;
-    color: ${({ isNegative }: { isNegative?: boolean }) => (isNegative ? 'red' : 'black')};
+    color: ${(props) => (props.isNegative ? 'red' : 'black')};
     margin-top: 20px;
 `;
 

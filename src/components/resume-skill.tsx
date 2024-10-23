@@ -34,11 +34,6 @@ const StyledH3 = styled.h3`
     font-size:calc(9px + 1vw);
 `
 
-const StyledH4 = styled.h4`
-    color: #3C4048;
-    font-size:calc(7px + 1vw);
-`
-
 const StyledLi = styled.li`
     color: #3C4048;
     text-decoration: none;
