@@ -1,5 +1,5 @@
 import {styled} from "styled-components";
-import fred from "../pic/freddie.jpg";
+import fred from "../pic/freddie.jpg"
 
 const StyledMain = styled.main`
     background-color: #F2F1EB;
@@ -70,8 +70,7 @@ export default function Main() {
     return(
         <StyledMain>
             <StyledH2>Home</StyledH2>
-            <br />
-                <StyledImage src={fred} alt="Freddie Guo" />
+            <StyledImage src={fred} alt="Freddie Guo" />
                         <StyledP>
                             My name is Freddie. I am a student currently pursuing a Bachelor of Arts in Computer Science and
                             Economics at Boston University. With a strong foundation in both technical and analytical disciplines,
